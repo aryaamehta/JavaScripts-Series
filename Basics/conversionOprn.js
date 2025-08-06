@@ -48,3 +48,9 @@ console.log(true);             // true
 console.log(+true);           // 1
 console.log(+"");            // 0
 
+let num1 , num2 ,num3
+num1 = num2 = num3 = 2 + 2
+
+let gameconter = 100
+++gameconter;
+console.log(gameconter);      // 101
