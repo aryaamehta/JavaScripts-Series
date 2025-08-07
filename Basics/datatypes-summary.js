@@ -31,3 +31,24 @@ const myFunction = function(){
 }
 console.log(typeof bigNumber);            // bigint
 console.log(typeof outsideTemp);          // object
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive)  , Heap(Non-Primitive)
+
+let myName =  "Rishu"
+let anothername = myName
+anothername = "Raj"
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@byl"
+}
+let userTwo = userOne
+userTwo.email = "Rishu@gmail.com"
+console.log(userOne.email);              //Rishu@gmail.com
+console.log(userTwo.email);              //Rishu@gmail.com
